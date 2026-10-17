@@ -4,7 +4,7 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 
 | File | Used by | Load URL |
 | --- | --- | --- |
-| `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v1/miz-home.min.js` |
+| `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v2/miz-home.min.js` |
 
 ## Rules
 
@@ -15,3 +15,10 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
   without motion, instead of running unreviewed code.
 - Files here are build output. The readable sources live in the project's `webflow/new-home/`
   folder (`hero.js`, `sections.js`); edit those, rebuild, and tag a new version.
+
+## Versions
+
+| Tag | Change |
+| --- | --- |
+| v1 | Hero, logo strip, services marquee, Three chapters, Why MIZ, round-3 motion |
+| v2 | Leadership cards: line icon draws in, name rises, desktop hover; insights reveal only |
