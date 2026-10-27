@@ -5,7 +5,7 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | File | Used by | Load URL |
 | --- | --- | --- |
 | `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v3/miz-home.min.js` |
-| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v4/miz-hub.min.js` |
+| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v5/miz-hub.min.js` |
 
 ## Rules
 
@@ -25,3 +25,4 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | v2 | Leadership cards: line icon draws in, name rises, desktop hover; insights reveal only |
 | v3 | Key figures: calm count-up from 0 (1.2 s, ease-out) with label fade, plays once; replaces the scramble |
 | v4 | Adds `miz-hub.min.js`: Regulatory hub and service pages (header states, pathway motif, pathway timeline, 300+ count-up, reveals, CTA lines). `miz-home.min.js` unchanged from v3 |
+| v5 | `miz-hub.min.js`: adds the Division Chapters section (the other two divisions with the home chapters' 3D line forms, text reveal, service hover; stills under reduced motion). `miz-home.min.js` unchanged from v3 |
