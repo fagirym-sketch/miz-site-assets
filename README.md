@@ -5,7 +5,7 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | File | Used by | Load URL |
 | --- | --- | --- |
 | `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v3/miz-home.min.js` |
-| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v6/miz-hub.min.js` |
+| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v7/miz-hub.min.js` |
 
 ## Rules
 
@@ -27,3 +27,4 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | v4 | Adds `miz-hub.min.js`: Regulatory hub and service pages (header states, pathway motif, pathway timeline, 300+ count-up, reveals, CTA lines). `miz-home.min.js` unchanged from v3 |
 | v5 | `miz-hub.min.js`: adds the Division Chapters section (the other two divisions with the home chapters' 3D line forms, text reveal, service hover; stills under reduced motion). `miz-home.min.js` unchanged from v3 |
 | v6 | `miz-hub.min.js`: adds the Technology & Intelligence hub (network motif, kicker scramble, reactive dot grid, service anchors with a sticky navigator and scroll-spy, per-service reveals). The loader also loads ScrambleTextPlugin. Regulatory pages stay on v5 until moved on purpose. `miz-home.min.js` unchanged from v3 |
+| v7 | `miz-hub.min.js`: adds the Marketing & Creative hub (waves-and-planes hero with a kinetic headline, client logo loop, pinned work showcase with swipe on touch, service image mask reveals, process line, magnetic buttons). Used on /marketing only; /tech stays on v6 and the Regulatory pages on v5. `miz-home.min.js` unchanged from v3 |
