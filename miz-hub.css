@@ -1,4 +1,4 @@
-/* MIZ Experts hub, About, Work, Insights and Contact page CSS v10 (2026-11-06). Source: webflow/hub/head.html. Do not edit here; rebuild and tag a new version. */
+/* MIZ Experts hub, About, Work, Insights and Contact page CSS v11 (2026-11-06). Source: webflow/hub/head.html. Do not edit here; rebuild and tag a new version. */
 html.lenis,html.lenis body{height:auto}
 .lenis.lenis-smooth{scroll-behavior:auto!important}
 .lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
@@ -154,6 +154,8 @@ html:not(.motion) .section_mkt-process .mkt-process_line-fill{transform:none}
 .contact-form_input::placeholder,.contact-form_textarea::placeholder{color:var(--_miz-theme---text--secondary)}
 select.contact-form_input{appearance:auto;cursor:pointer}
 .contact-form_textarea{resize:vertical}
+[placeholder="Example Text"]::placeholder{color:transparent}
+.contact-form_check::before,.contact-form_check::after{display:none}
 .contact-form_check .w-checkbox-input{float:none;flex:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--_miz-color---blue--600)}
 .contact-form_check .w-checkbox-input:focus-visible{outline:2px solid var(--_miz-theme---focus--ring);outline-offset:2px}
 .contact-form_check .w-form-label{margin:0;font-weight:400;cursor:pointer}

@@ -5,8 +5,8 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | File | Used by | Load URL |
 | --- | --- | --- |
 | `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v3/miz-home.min.js` |
-| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v10/miz-hub.min.js` |
-| `miz-hub.css`, `miz-hub-loader.min.js` | About, Work and Insights pages and their templates (from v8) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v10/miz-hub.css`, `.../miz-hub-loader.min.js` |
+| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v11/miz-hub.min.js` |
+| `miz-hub.css`, `miz-hub-loader.min.js` | About, Work and Insights pages and their templates (from v8) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v11/miz-hub.css`, `.../miz-hub-loader.min.js` |
 
 ## Rules
 
@@ -32,3 +32,4 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | v8 | `miz-hub.min.js`: adds the About, Work and Insights pages (converging-lines hero, key figures count-up, Leadership cards, division filter for case study and article lists, cover mask reveals). New files `miz-hub.css` (page CSS) and `miz-hub-loader.min.js` (page loader), so these pages hold only a few lines of custom code. /marketing stays on v7, /tech on v6, the Regulatory pages on v5. `miz-home.min.js` unchanged from v3 |
 | v9 | `miz-hub.min.js`, `miz-hub.css`, `miz-hub-loader.min.js`: add the Contact page (honeypot, dropdown safeguard, focus on the form result, map loads on scroll, form and map styles). Used on the new Contact page only; About, Work and Insights stay on v8, /marketing on v7, /tech on v6, Regulatory on v5. `miz-home.min.js` unchanged from v3 |
 | v10 | Contact page: the dropdown safeguard reads its options from the field wrapper, because Webflow does not keep custom attributes on a select. Used on the new Contact page only; v9 was not used by any published page |
+| v11 | Contact page: hides and removes Webflow's default "Example Text" placeholder, and lines the consent checkbox up with the fields. Used on the new Contact page only |
