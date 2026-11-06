@@ -1,4 +1,4 @@
-/* MIZ Experts hub, About, Work and Insights page CSS v8 (2026-11-06). Source: webflow/hub/head.html. Do not edit here; rebuild and tag a new version. */
+/* MIZ Experts hub, About, Work, Insights and Contact page CSS v9 (2026-11-06). Source: webflow/hub/head.html. Do not edit here; rebuild and tag a new version. */
 html.lenis,html.lenis body{height:auto}
 .lenis.lenis-smooth{scroll-behavior:auto!important}
 .lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
@@ -147,6 +147,26 @@ html:not(.motion) .section_mkt-process .mkt-process_line-fill{transform:none}
 .article_richtext a{color:var(--_miz-color---blue--600);text-underline-offset:3px}
 .article_richtext figure{margin:32px 0}
 .article_richtext img{max-width:100%;height:auto;border-radius:8px}
+/* Contact: hero with a small motif, form states, map */
+.hub-hero_component.is-compact:has(.hub-hero_visual){grid-template-columns:minmax(0,7fr) minmax(0,5fr);align-items:center}
+.contact-form_input:focus,.contact-form_textarea:focus{outline:2px solid var(--_miz-theme---focus--ring);outline-offset:1px;border-color:var(--_miz-color---blue--600)}
+.contact-form_input:user-invalid,.contact-form_textarea:user-invalid{border-color:var(--_miz-color---state--error)}
+.contact-form_input::placeholder,.contact-form_textarea::placeholder{color:var(--_miz-theme---text--secondary)}
+select.contact-form_input{appearance:auto;cursor:pointer}
+.contact-form_textarea{resize:vertical}
+.contact-form_check .w-checkbox-input{float:none;flex:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--_miz-color---blue--600)}
+.contact-form_check .w-checkbox-input:focus-visible{outline:2px solid var(--_miz-theme---focus--ring);outline-offset:2px}
+.contact-form_check .w-form-label{margin:0;font-weight:400;cursor:pointer}
+.contact-form_check:has(input:user-invalid) .w-form-label{color:var(--_miz-color---state--error)}
+.contact-form_consent-link{margin-inline-start:6px;white-space:nowrap}
+.contact-form_success:focus,.contact-form_error:focus{outline:none}
+[dir="rtl"] .contact-form_success,[dir="rtl"] .contact-form_error{border-left:0;border-right-style:solid;border-right-width:3px}
+[dir="rtl"] .contact-form_success{border-right-color:var(--_miz-color---state--success)}
+[dir="rtl"] .contact-form_error{border-right-color:var(--_miz-color---state--error)}
+.contact-details_link:hover{color:var(--_miz-color---blue--600)}
+.contact-details_item:last-child{border-bottom:1px solid var(--_miz-theme---border--subtle)}
+.contact-map_embed{position:absolute;inset:0;display:block;width:100%;height:100%;border:0;filter:grayscale(1) contrast(1.02)}
+.contact-map_tint{position:absolute;inset:0;background:var(--_miz-color---blue--600);mix-blend-mode:color;opacity:.85;pointer-events:none}
 /* CTA Band and Site Footer (same as new-home) */
 .cta-band_lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
 .cta-band_lines line{stroke:var(--_miz-color---blue--600);stroke-width:1;vector-effect:non-scaling-stroke;opacity:.7}
@@ -155,6 +175,7 @@ html:not(.motion) .section_mkt-process .mkt-process_line-fill{transform:none}
 .footer_pin{flex:none;width:15px;height:15px;margin-top:.22em;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linejoin:round}
 .footer_map-link:hover .footer_map-text{text-decoration:underline;text-underline-offset:3px}
 @media (max-width:991px){
+.hub-hero_component.is-compact:has(.hub-hero_visual){grid-template-columns:minmax(0,1fr)}
 .team_list:has(>.team_card.is-hidden),.team_list:not(:has(>.team_card:nth-child(4))){grid-template-columns:minmax(0,1fr);grid-row-gap:12px}
 .team_list:has(>.team_card.is-hidden) .team_card,.team_list:not(:has(>.team_card:nth-child(4))) .team_card{min-height:0;flex-direction:row;align-items:center;padding:20px}
 .team_list:has(>.team_card.is-hidden) .team_icon,.team_list:not(:has(>.team_card:nth-child(4))) .team_icon{width:56px;height:56px}
@@ -185,6 +206,7 @@ html:not(.motion) .section_mkt-process .mkt-process_line-fill{transform:none}
 [dir="rtl"] .mkt-process_dot{left:auto;right:0}
 }
 @media (max-width:767px){
+.hub-hero_component.is-compact .hub-hero_visual{display:none}
 .hub-hero_heading{font-size:clamp(2.3rem,10.5vw,3.4rem)}
 .service-hero_heading{font-size:clamp(2.1rem,9.5vw,3rem)}
 .hub-hero_visual{max-width:200px}

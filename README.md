@@ -5,8 +5,8 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | File | Used by | Load URL |
 | --- | --- | --- |
 | `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v3/miz-home.min.js` |
-| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v8/miz-hub.min.js` |
-| `miz-hub.css`, `miz-hub-loader.min.js` | About, Work and Insights pages and their templates (from v8) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v8/miz-hub.css`, `.../miz-hub-loader.min.js` |
+| `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v9/miz-hub.min.js` |
+| `miz-hub.css`, `miz-hub-loader.min.js` | About, Work and Insights pages and their templates (from v8) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v9/miz-hub.css`, `.../miz-hub-loader.min.js` |
 
 ## Rules
 
@@ -30,3 +30,4 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | v6 | `miz-hub.min.js`: adds the Technology & Intelligence hub (network motif, kicker scramble, reactive dot grid, service anchors with a sticky navigator and scroll-spy, per-service reveals). The loader also loads ScrambleTextPlugin. Regulatory pages stay on v5 until moved on purpose. `miz-home.min.js` unchanged from v3 |
 | v7 | `miz-hub.min.js`: adds the Marketing & Creative hub (waves-and-planes hero with a kinetic headline, client logo loop, pinned work showcase with swipe on touch, service image mask reveals, process line, magnetic buttons). Used on /marketing only; /tech stays on v6 and the Regulatory pages on v5. `miz-home.min.js` unchanged from v3 |
 | v8 | `miz-hub.min.js`: adds the About, Work and Insights pages (converging-lines hero, key figures count-up, Leadership cards, division filter for case study and article lists, cover mask reveals). New files `miz-hub.css` (page CSS) and `miz-hub-loader.min.js` (page loader), so these pages hold only a few lines of custom code. /marketing stays on v7, /tech on v6, the Regulatory pages on v5. `miz-home.min.js` unchanged from v3 |
+| v9 | `miz-hub.min.js`, `miz-hub.css`, `miz-hub-loader.min.js`: add the Contact page (honeypot, dropdown safeguard, focus on the form result, map loads on scroll, form and map styles). Used on the new Contact page only; About, Work and Insights stay on v8, /marketing on v7, /tech on v6, Regulatory on v5. `miz-home.min.js` unchanged from v3 |
