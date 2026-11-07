@@ -4,7 +4,7 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 
 | File | Used by | Load URL |
 | --- | --- | --- |
-| `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v3/miz-home.min.js` |
+| `miz-home.min.js` | new-home page (staging) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v13/miz-home.min.js` |
 | `miz-hub.min.js` | division hubs and service pages (Regulatory first) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v12/miz-hub.min.js` |
 | `miz-hub.css`, `miz-hub-loader.min.js` | About, Work and Insights pages and their templates (from v8) | `https://cdn.jsdelivr.net/gh/fagirym-sketch/miz-site-assets@v12/miz-hub.css`, `.../miz-hub-loader.min.js` |
 
@@ -34,3 +34,4 @@ Static code for the MIZ Experts Webflow site, served through jsDelivr.
 | v10 | Contact page: the dropdown safeguard reads its options from the field wrapper, because Webflow does not keep custom attributes on a select. Used on the new Contact page only; v9 was not used by any published page |
 | v11 | Contact page: hides and removes Webflow's default "Example Text" placeholder, and lines the consent checkbox up with the fields. Used on the new Contact page only |
 | v12 | `miz-hub.min.js`, `miz-hub-loader.min.js` (`miz-hub.css` unchanged, same hash): hero heading reveal keeps descenders (g, j, p, q, y). Adds `linesClass` to the hero line split and `charsClass` to the Division Chapters title split, so the existing mask padding applies. Used on: Contact, Privacy, Terms, 404, About, Work, Insights and their templates, the Regulatory hub and its service template. /tech stays on v6 and /marketing on v7 |
+| v13 | `miz-home.min.js`: Arabic (RTL) support on the new home. In RTL the hero heading, Division Chapters titles and Why MIZ tagline split by words only (characters break joined Arabic letters), word masks get the descender padding, and the services marquee runs in the reading direction. Used by new-home (staging) only; English output is unchanged. `miz-hub.min.js` and the hub pages stay on v12 |
